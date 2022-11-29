@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+ <meta name="keywords" content="Wakanda, Medical Centre, Hospital, Health" >
+ <meta name="description" content="<strong>Wakanda Health</strong> is the leading medical facility in the world for you.">
+ <meta name="author" content="Amanda Tevera">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta charset="UTF-8">
+
+ <title>Wakanda Health</title>
+ <link rel="icon" href="pictures/Black Panther.ico" type="image/x-icon" />
+ <link rel="stylesheet" href="css/styles.css" />
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+      <nav>
+        <a class="button" href="index.html">Home</a>
+        <a class="button" href="Hospitals.html">Hospitals</a>
+        <a class="button" href="Specialities.html">Specialities</a>
+        <a class="button" href="Careers.html">Careers</a>
+        <a class="button" href="Contact.html">Contact</a>
+
+    <div class="heading">
+    <h1>Wakanda Health</h1>
+    <p>For Honour. For Legacy. For Wakanda</p>
+    </div>
+    <img class="panther" src="pictures/Black panther logo.png" alt="Panther Logo" title="Wakanda Health Logo" width="100" height="100"/>
+    </nav>
+    </header>
+    <main class="content">
+      <div class="welcome">  
+      <h2>Welcome to Wakanda Health</h2>
+
+      <button onclick="myFunction()">Welcome!</button>
+      <p id="hello"></p>
+      <script>
+        function myFunction() {
+          let text;
+          let person = prompt("Please enter your name:", "Harry Potter");
+          if (person == null || person == "") {
+            text = "User cancelled the prompt.";
+          } else {
+            text = "Hello " + person + "! Welcome to Wakanda Health and thank you for your time!";
+          }
+          document.getElementById("hello").innerHTML = text;
+        }
+        </script>
+        
+        <p><strong><em>Health is wealth</em></strong> and so Wakanda Health is here to ensure that your greatest
+        assest, your health, is well taken off and preserved. With world class facilities and the latest medical
+    equipment, our hospitals offer the best solution to your current situation.</p>
+
+    <img class="pic1" src="Pictures/Doctors/kid and doctor.jpg" alt="Friendly doctor" title="Our friendly staff"/>
+    </div>
+
+          <div>
+            <h2>About Wakanda Health</h2>
+            <p>Established in 2030, Wakanda Health is a renowned private hospital group operating in Africa.<br>
+              The first hospital was opened in the Bernin Zana, the capital city of Wakanda.
+              The group currently operates 60 hospitals, 25 day clinics, 10 sub-acute and 7 mental health facilities.
+            </p>
+            <img class="pic1" src="Pictures/hospital.jpg" alt="Wakanda Health Bernin Zana" title="Wakanda Health Bernin Zana" />
+
+          </div>
+
+          <div class="aside">
+            <h3>Download the Wakanda+ App today!</h3>
+            <p>We offer you 24/7 support with our new Wakanda+ App. 
+                There are several features available including:</p>
+
+            <dl>
+              <dt>Book an appointment</dt>
+                <dd>Choose from our many specialists and book to see a dentist, physiotherapist, 
+                dermalolgist or gynaecologist</dd>
+              <dt>Antenatal classes</dt>
+                <dd>Learn what to expect when you're expecting with parenting videos and 
+                podcasts available on the app. </dd>
+              <dt>Order medication</dt>
+                <dd>Get all your medicines and medical supplies delivered straight to 
+                    your door with just a few taps on your phone!</dd>
+              <dt>Get help!</dt>
+              <dd>Call for help easily in an emergency with the <em>Panic Button</em> feature in the app.</dd>
+            </dl>
+            <img src="Pictures/medical app.jpg" alt="Health Phone App" title="Wakanda+ Phone App" width="300" height="200"/>
+          
+          </div>
+    </main>
+
+    <footer>
+      <p>©Copyright Wakanda Health 2050 . All rights reversed.</p>
+    </footer>
+</body>
+
+</html>

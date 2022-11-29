@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="keywords" content="Wakanda, Medical Centre, Hospital, Health" >
+        <meta name="description" content="<strong>Wakanda Health</strong> is the leading medical facility in the world for you.">
+        <meta name="author" content="Amanda Tevera, Sakhile Makusha and Kudzai Makusha">
+ 
+    <title>Wakanda Health</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e2981936a8.js" crossorigin="anonymous"></script>
+   
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+
+               
+                <link rel="icon" href="pictures/Black Panther.ico" type="image/x-icon" />
+               
+
+
+</head>
+<body>
+
+<!-- Navbar section-->
+  <nav class="navbar">
+    <div class="navbar__container">
+        <a href="/" id="navbar__logo">
+            <i class="fas fa-gem"></i>WAKANDA HOSPITAL
+        </a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">Hospitals</a>
+            </li>
+            <li class="navbar__item">
+                <a href="file:///C:/Users/kudzi/OneDrive/CodeForGirls/WebDev/Project/tech.html" class="navbar__links">Specialties</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">Careers</a>
+            </li>
+            <li class="navbar__btn">
+                <a href="/" class="button">Contact</a>
+            </li>
+        </ul>
+    </div>
+  </nav> 
+
+<!-- hero section-->
+
+  <div class="main">
+    <div class="main__container">
+        <div class="main__content">
+            <h1>WELCOME TO</h1>
+            <H2>WAKANDA HEALTH</H2>
+            <p>For Honour. For Legacy. For Wakanda</p>
+            <button class="main__btn" onclick="myFunction()" ><a href="/">Welcome!</a></button>
+
+           <!-- <button onclick="myFunction()">Welcome!</button> --> 
+
+      <p id="hello"></p>
+      <script>
+        function myFunction() {
+          let text;
+          let person = prompt("Please enter your name:", "Harry Potter");
+          if (person == null || person == "") {
+            text = "User cancelled the prompt.";
+          } else {
+            text = "Hello " + person + "! Welcome to Wakanda Health and thank you for your time!";
+          }
+          document.getElementById("hello").innerHTML = text;
+        }
+        </script>
+
+
+        </div>
+        <div class="main__img--container">
+            <img src="images/pic1.svg" alt="pic" id="main__img">
+        </div>
+    </div>
+  </div>  
+
+  <!-- services -->
+  
+  <div class="services">
+    <h1>Health is wealth and so Wakanda Health is here to ensure that your greatest assest, your health, is well taken off and preserved. 
+        With world class facilities and the latest medical equipment, our hospitals offer the best solution to your current situation.</h1>
+    <div class="services__container">
+        <div class="services__card">
+            <h2>About Wakanda Health</h2>
+            <p>Established in 2030, Wakanda Health is a renowned private hospital group operating in Africa.
+                The first hospital was opened in the Bernin Zana, the capital city of Wakanda. The group currently operates 60 hospitals, 25 day clinics, 10 sub-acute and 7 mental health facilities.</p>
+            <button>Specialities</button>
+        </div>
+        <div class="services__card">
+            <h2>Download the Wakanda+ App today!</h2>
+            <p>We offer you 24/7 support with our new Wakanda+ App. Features available include
+                Booking an appointment, 
+                Choosing from our many specialists and book to see a dentist, physiotherapist, dermalolgist or gynaecologist and
+                Antenatal classes.
+                </p>
+            <button>Download App</button>
+        </div>
+    </div>
+  </div>
+
+    <!-- footer -->
+
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/sign__up">Our Hospitals</a>
+                    <a href="/">Specialities</a>
+                    <a href="/">Careers</a>
+                    <a href="/Terms of Service.pdf">Terms of Service</a>
+                </div>
+                
+            </div>
+            <div class="footer__link--wrapper">
+                 <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                    <a href="https://facebook.com">Facebook</a>
+                    <a href="https://www.youtube.com/">YouTube</a>
+                    <a href="https://twitter.com/">Twitter</a>
+                 
+                </div>
+            </div>
+        </div>
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo"><i class="fas fa-gem"></i>NEXT</a>
+                </div>
+                <p class="website__rights">©Copyright Wakanda Health 2050. All rights reversed.</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="https://facebook.com" >
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="https://www.instagram.com/" >
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="https://twitter.com/" >
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="https://www.youtube.com/" >
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <script src='app.js'></script>
+</body>
+</html>
+
