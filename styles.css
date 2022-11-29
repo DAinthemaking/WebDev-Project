@@ -390,7 +390,7 @@ background: #1363DF;
     rgb(6, 40, 61) 100%), url('\images\pic22.jpg');
     background-size: cover;
     position: relative;
-    color: #DFF6FF;
+    color: #06283D;
 }
 
 .services__card:nth-child(2) {
