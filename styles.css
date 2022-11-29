@@ -206,7 +206,7 @@ background: #1363DF;
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 90vh;
+    height: 80vh;
     background-color: #DFF6FF;
     z-index: 1;
     width: 100%;
@@ -357,7 +357,7 @@ background: #1363DF;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 .services h1 {
@@ -398,6 +398,15 @@ background: #1363DF;
     rgb(6, 40, 61) 100%), url('\images\pic33.jpg');
 }
 
+.services__cont h1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 30px;
+    background-image: linear-gradient(to top, #47B5FF 0%, #1363DF 100%);
+}
+
 .services h2 {
     position: absolute;
     top: 240px;
@@ -405,7 +414,7 @@ background: #1363DF;
 }
 
 .services__card p {
-    position: absolute;
+    position: relative;
     top: 310px;
     left: 30px;
 }
@@ -456,6 +465,31 @@ background: #1363DF;
     }
 }
 
+/* styling search bar */
+    .search input[type=text]{
+        width:300px;
+        height:40px;
+        border-radius:30px;
+        border: #06283D; 
+    }
+        
+    .search{
+        float:right;
+        margin:10px;
+    }
+        
+    .search button{
+        background-color: #1363DF;
+        color: #DFF6FF;
+        float: right;
+        padding: 10px 10px;
+        margin-right: 16px;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+
+    }
+
 /* footer css */
 
 .footer__container {
@@ -473,7 +507,7 @@ background: #1363DF;
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .footer__links {
